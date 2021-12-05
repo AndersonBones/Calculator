@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat';    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #0d0e0e;
+}    
+
+
+.calc-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    width: 290px;
+    height: 570px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.text-area{
+    width: 93%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    
+    overflow: hidden;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.digits-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: stretch;
+}
+
+ul li{
+    width: 60px;
+    height: 60px;
+}
+
+
+.calc-button{
+    color: #29A4DA;
+}
+
+
+.blue-button{
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    color: white;
+    font-size:28px;
+}
+
+
+button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(to top, #161616 0%, #313131 100%);
+    color: white;
+    font-size: 28px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 5px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+button:active{
+    transform: translateY(2px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 2.5px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
+}
+
+
+.equal-button{
+    background-image: linear-gradient(to top, #4801FF 0%,#AC32E4 100%);
+    color: white;
+}
+
+.zero{
+    width: 130px;
+    height: 60px;
+}
