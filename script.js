@@ -69,6 +69,11 @@ function backspace(){ /* Apaga um digito por vez */
     size = calc_area.innerText.length;   
 }
 
+function insertKey(event){
+    if(event.key == 7){
+        calc_area.innerText+='7';
+    }
+}
 
 function ClearAll(){ /* Limpa o campo de digitos */
     calc_area.innerText = '';
