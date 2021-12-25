@@ -134,3 +134,10 @@ button:active{
     height: 60px;
 }
 
+p{
+    text-align: center;
+    background-color: #29323c;
+    color: white;
+    font-size: 15px;
+}
+
