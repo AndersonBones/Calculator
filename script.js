@@ -1,6 +1,7 @@
 
 var calc_area = document.getElementsByClassName("text-area")[0];
 var alert_message = document.getElementsByClassName("alert-message-container")[0];
+
 var size = 0;
 
 
@@ -52,6 +53,7 @@ function result(){
     if(radicando.length >= 1 &&  isNumber(radicando) == true){
         calc_area.innerText = calc_area.innerText.replace('²', '*'+radicando); /* é um valor numérico */
     }
+
     
     /* verifica de se o resultado do calculo é um número decimal ou não */ 
     if(eval(calc_area.innerText) % 1 === 0){ 
@@ -69,11 +71,6 @@ function backspace(){ /* Apaga um digito por vez */
     size = calc_area.innerText.length;   
 }
 
-function insertKey(event){
-    if(event.key == 7){
-        calc_area.innerText+='7';
-    }
-}
 
 function ClearAll(){ /* Limpa o campo de digitos */
     calc_area.innerText = '';
