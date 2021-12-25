@@ -1,4 +1,4 @@
-### Calculadora Básica ![](src/https://cdn-icons-png.flaticon.com/512/891/891175.png)
+### Calculadora Básica ![](src/calculator.png)
 
 <!--
 **AndersonBones/AndersonBones** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
