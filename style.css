@@ -130,7 +130,7 @@ button:active{
 }
 
 .zero{
-    width: 130px;
+    flex-grow:2;
     height: 60px;
 }
 
