@@ -134,7 +134,7 @@ button:active{
     height: 60px;
 }
 
-p{
+footer > p{
     text-align: center;
     background-color: #29323c;
     color: white;
