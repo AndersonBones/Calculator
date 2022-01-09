@@ -1,14 +1,11 @@
 # CALCULADORA <img src="Images/calculator.png" width="30">
 #### Calculdora que realiza calculos básicos.
 ## ● Features
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [x] Cadastro de produtos
-<p>Calculo de adição</p>
-<p>Calculo de subtração</p>
-<p>Calculo de divisão</p>
-<p>Calculo de multiplicação</p>
-<p>Calculo de Raiz quadrada</p>
+- [x] Calculo de adição
+- [x] Calculo de subtração
+- [x] Calculo de divisão
+- [x] Calculo de multiplicação
+- [x] Calculo de raiz quadrada
 
 ## ● ScreenShots 
 <img src="Images/Animação.gif">
