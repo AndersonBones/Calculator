@@ -1,6 +1,6 @@
 # CALCULADORA <img src="Images/calculator.png" width="30">
 #### Calculdora que realiza calculos básicos.
-## Features
+## ● Features
 - [x] Calculo de adição
 - [x] Calculo de subtração
 - [x] Calculo de divisão
